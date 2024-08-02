@@ -1,5 +1,5 @@
-YouTube: 19.16.39  
 Music: 7.12.51  
+YouTube: 19.16.39  
 
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store
   
