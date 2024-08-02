@@ -35,6 +35,19 @@
         "value": "Xisr Yellow"
       }
     ]
+  },
+  {
+    "patchName": "Custom branding name for YouTube Music",
+    "options": [
+      {
+        "key": "AppNameNotification",
+        "value": "Music"
+      },
+      {
+        "key": "AppNameLauncher",
+        "value": "Music"
+      }
+    ]
   }
 ]
         
