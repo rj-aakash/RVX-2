@@ -11,12 +11,12 @@ integrations-version = "v0.155.0-dev.2"
 [YouTube]
 build-mode = "module"
 excluded-patches = "'Spoof client'"
-included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+included-patches = "'Custom branding icon for YouTube' 'Visual preferences icons'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
 build-mode = "module"
 excluded-patches = "'Enable Cairo splash animation'"
-included-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
+included-patches = "'Custom branding icon for YouTube Music' 'Custom header for YouTube Music' 'Visual preferences icons'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
