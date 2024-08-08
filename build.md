@@ -5,10 +5,10 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
   
 CLI: inotia00/revanced-cli-4.6.1-all.jar  
 Integrations: anddea/revanced-integrations-0.155.0-dev.6.apk  
-Patches: anddea/revanced-patches-2.228.0-dev.9.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.228.0-dev.9)
+Patches: anddea/revanced-patches-2.228.0-dev.11.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.228.0-dev.11)
 
 CLI: inotia00/revanced-cli-4.6.1-all.jar  
 Integrations: anddea/revanced-integrations-0.155.0-dev.6.apk  
-Patches: anddea/revanced-patches-2.228.0-dev.9.jar  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.228.0-dev.9)  
+Patches: anddea/revanced-patches-2.228.0-dev.11.jar  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v2.228.0-dev.11)  
