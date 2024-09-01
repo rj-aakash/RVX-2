@@ -2,7 +2,7 @@
 
 set -euo pipefail
 shopt -s nullglob
-trap "rm -rf temp/*tmp.* temp/*/*tmp.* temp/*-temporary-files; exit 130" INT
+trap "rm -rf temp/*tmp.* temp/*/*tmp.*; exit 130" INT
 
 if [ "${1-}" = "clean" ]; then
 	rm -rf temp build logs build.md
@@ -178,8 +178,7 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 
-log "\n- To use YouTube, YT Music and Photos without root, install [microG](https://github.com/ReVanced/GmsCore/releases/latest) or [MicroG RE](https://github.com/WSTxda/MicroG-RE/releases/latest)"
-log "- To detach RV Apps from Play Store, use [zygisk-detach](https://github.com/j-hc/zygisk-detach)"
+log "\n- To detach RV𝕏-2 from Play Store, use [zygisk-detach](https://github.com/j-hc/zygisk-detach)"
 log "\n**Dependencies** 👇"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
 
