@@ -1,23 +1,86 @@
 enable-magisk-update = true
 
-parallel-jobs = 2
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "RVX-2"
+parallel-jobs = 3
 
-patches-version = "v2.228.0-dev.13"
-integrations-version = "v0.155.0-dev.8"
-
-[YouTube]
-build-mode = "module"
-excluded-patches = "'Spoof streaming data'"
-included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Visual preferences icons'"
+[YouTube-RV]
+app-name = "YouTube"
+rv-brand = "RV"
+build-mode = "both"
+excluded-patches = "'Announcements'"
+included-patches = "'Change header'"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
-[Music]
-build-mode = "module"
-excluded-patches = "'Enable Cairo splash animation'"
-included-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music' 'Visual preferences icons'"
+[Music-RV]
+app-name = "Music"
+rv-brand = "RV"
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
+
+[Photos-RV]
+app-name = "Photos"
+rv-brand = "RV"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+arch = "arm64-v8a"
+
+[Facebook-RV]
+app-name = "Facebook"
+rv-brand = "RV"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+arch = "arm64-v8a"
+
+[Messenger-RV]
+app-name = "Messenger"
+rv-brand = "RV"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+arch = "arm64-v8a"
+
+[Instagram-RV]
+app-name = "Instagram"
+rv-brand = "RV"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
+arch = "arm64-v8a"
+
+[YouTube-RVX]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "RVX"
+build-mode = "both"
+included-patches = "'Custom header for YouTube' 'MaterialYou' 'Visual preferences icons'"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+
+[Music-RVX]
+app-name = "Music"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "RVX"
+build-mode = "both"
+excluded-patches = "'Enable Cairo splash animation'"
+included-patches = "'Custom header for YouTube Music'"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
+
+[Reddit-RVX]
+app-name = "Reddit"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "RVX"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+
+[X-Piko]
+app-name = "X"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+rv-brand = "Piko"
+build-mode = "both"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
