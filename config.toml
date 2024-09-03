@@ -6,8 +6,8 @@ integrations-source = "anddea/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "RVX-2"
 
-patches-version = "v2.228.0-dev.14"
-integrations-version = "v0.155.0-dev.9"
+patches-version = "v2.228.0-dev.15"
+integrations-version = "v0.155.0-dev.10"
 
 [YouTube]
 build-mode = "module"
