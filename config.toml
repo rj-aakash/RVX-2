@@ -7,7 +7,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "RVX-2"
 
 patches-version = "v2.228.0-dev.15"
-integrations-version = "v0.155.0-dev.10"
+integrations-version = "v0.155.0-dev.11"
 
 [YouTube]
 build-mode = "module"
