@@ -178,7 +178,7 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 
-log "\n- To detach RV𝕏-2 from Play Store, use [zygisk-detach](https://github.com/j-hc/zygisk-detach)"
+log "\n- [README](https://github.com/rjaakash/RV-Apps/blob/main/README.md)"
 log "\n**Dependencies** 👇"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
 
