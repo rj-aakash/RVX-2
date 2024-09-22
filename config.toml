@@ -11,7 +11,6 @@ integrations-version = "dev"
 
 [YouTube]
 build-mode = "module"
-excluded-patches = "'Spoof streaming data'"
 included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Visual preferences icons'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
