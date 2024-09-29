@@ -10,13 +10,13 @@ patches-version = "dev"
 integrations-version = "dev"
 
 [YouTube]
-build-mode = "module"
+build-mode = "both"
 included-patches = "'Custom header for YouTube'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
-build-mode = "module"
+build-mode = "both"
 included-patches = "'Custom header for YouTube Music'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
