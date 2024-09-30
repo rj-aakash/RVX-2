@@ -1,11 +1,20 @@
         
 [
   {
+    "patchName": "Change header",
+    "options": [
+      {
+        "key": "header",
+        "value": "premium*header"
+      }
+    ]
+  },
+  {
     "patchName": "Custom branding icon for YouTube",
     "options": [
       {
         "key": "AppIcon",
-        "value": "MMT"
+        "value": "Revancify Red"
       }
     ]
   },
@@ -23,7 +32,7 @@
     "options": [
       {
         "key": "AppIcon",
-        "value": "MMT"
+        "value": "Revancify Red"
       }
     ]
   },
