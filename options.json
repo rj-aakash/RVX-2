@@ -1,11 +1,20 @@
         
 [
   {
+    "patchName": "Custom Shorts action buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "Cairo"
+      }
+    ]
+  },
+  {
     "patchName": "Custom branding icon for YouTube",
     "options": [
       {
         "key": "AppIcon",
-        "value": "MMT"
+        "value": "MMT Turquoise"
       }
     ]
   },
@@ -23,7 +32,7 @@
     "options": [
       {
         "key": "AppIcon",
-        "value": "MMT"
+        "value": "MMT Turquoise"
       }
     ]
   },
