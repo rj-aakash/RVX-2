@@ -1,8 +1,8 @@
 enable-magisk-update = true
 
 parallel-jobs = 2
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "RVX-2"
 
@@ -10,14 +10,14 @@ patches-version = "dev"
 integrations-version = "dev"
 
 [YouTube]
-build-mode = "module"
-included-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+build-mode = "both"
+included-patches = "'Custom header for YouTube'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Music]
-build-mode = "module"
-included-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music' 'Custom header for YouTube Music'"
+build-mode = "both"
+included-patches = "'Custom header for YouTube Music'"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
